@@ -38,6 +38,7 @@ h5,
 h6 {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
+    font-family: "PlayfairDisplay";
 }
 
 button:focus {
@@ -305,7 +306,6 @@ button:focus {
 .b_banner .banner_inner .b_text h2 {
     font-size: 300%;
     font-weight: 500;
-    font-family: "Roboto", sans-serif;
     line-height: 66px;
     margin-bottom: 15px;
 }
@@ -577,7 +577,9 @@ button:focus {
 /* =================================== */
 
 h2 {
+
     font-size: 30px;
+
 }
 
 h4 {
