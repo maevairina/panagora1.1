@@ -1,28 +1,35 @@
 @font-face {
-  font-family: "DMSerifText";
-  font-style: normal;
-  font-weight: 400;
-  src: url(/fonts/DMSerifText-Regular.woff) format("woff2");
+    font-family: "DMSerifText";
+    font-style: normal;
+    font-weight: 400;
+    src: url(/fonts/DMSerifText-Regular.woff) format("woff2");
 }
 
 @font-face {
-  font-family: "opensans";
-  font-style: bold;
-  font-weight: 400;
-  src: url(/fonts/opensans-bold-webfont.woff2) format("woff2");
+    font-family: "opensans";
+    font-style: bold;
+    font-weight: 400;
+    src: url(/fonts/opensans-bold-webfont.woff2) format("woff2");
 }
 
 @font-face {
-  font-family: "opensans";
-  font-style: normal;
-  font-weight: 400;
-  src: url(/fonts/opensans-regular-webfont.woff2) format("woff2");
+    font-family: "opensans";
+    font-style: normal;
+    font-weight: 400;
+    src: url(/fonts/opensans-light-webfont.woff2) format("woff2");
 }
 
 @font-face {
-  font-family: "PlayfairDisplay";
-  font-style: bold;
-  font-weight: 400;
-  src: local("Montserrat Regular"), local("Montserrat-Regular"),
-    url(/fonts/PlayfairDisplay-Bold.woff2) format("woff2");
+    font-family: "opensans";
+    font-style: regular;
+    font-weight: 400;
+    src: url(/fonts/opensans-regular-webfont.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: "PlayfairDisplay";
+    font-style: bold;
+    font-weight: 400;
+    src: local("Montserrat Regular"), local("Montserrat-Regular"),
+        url(/fonts/PlayfairDisplay-Bold.woff2) format("woff2");
 }
