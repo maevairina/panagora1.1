@@ -14,7 +14,7 @@
 
 @font-face {
     font-family: "opensans";
-    font-style: normal;
+    font-style: light;
     font-weight: 400;
     src: url(/fonts/opensans-light-webfont.woff2) format("woff2");
 }
@@ -30,6 +30,5 @@
     font-family: "PlayfairDisplay";
     font-style: bold;
     font-weight: 400;
-    src: local("Montserrat Regular"), local("Montserrat-Regular"),
-        url(/fonts/PlayfairDisplay-Bold.woff2) format("woff2");
+    src: local("Montserrat Regular"), local("Montserrat-Regular"), url(/fonts/PlayfairDisplay-Bold.woff2) format("woff2");
 }

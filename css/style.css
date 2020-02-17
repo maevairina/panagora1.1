@@ -38,7 +38,6 @@ h5,
 h6 {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
-
 }
 
 button:focus {
@@ -244,6 +243,9 @@ button:focus {
 
 .feature_item p {
     margin-bottom: 0px;
+    line-height: 15px;
+    font-family: "opensans";
+    font-style: light;
 }
 
 .feature_item:hover {
@@ -591,9 +593,7 @@ button:focus {
 /* =================================== */
 
 h2 {
-
     font-size: 30px;
-
 }
 
 h4 {
@@ -756,6 +756,8 @@ h6 {
 
 .solution_area .solution_inner .btn-iconed .spn {
     position: relative;
+    font-family: "opensans";
+    font-style: light;
     padding-right: 80px;
     left: -9px;
     -webkit-transform-origin: left right;
@@ -815,7 +817,6 @@ h6 {
     opacity: 0.7;
     font-family: opensans;
     font-style: bold;
-
 }
 
 .service_area .main_title h6 {
@@ -840,12 +841,14 @@ h6 {
     padding-top: 10px;
     padding-bottom: 70px;
     font-family: opensans;
-    font-style: regular;
+    font-style: light;
 }
 
 .service_area .service-button {
     color: black;
     border: none;
+    font-family: PlayfairDisplay;
+    font-style: bold;
 }
 
 .service_area .service-img {
