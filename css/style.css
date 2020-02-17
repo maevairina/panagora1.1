@@ -1,0 +1,908 @@
+/*=================== fonts ====================*/
+
+
+/*----------------------------------------------------*/
+
+.list {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+body {
+    line-height: 24px;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: #777777;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+button:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.p_120 {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1170px;
+    }
+}
+
+@media (min-width: 1620px) {
+    .box_1620 {
+        max-width: 1650px;
+        margin: auto;
+    }
+}
+
+
+/* Main Title Area css
+============================================================================================ */
+
+.main_title {
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+.main_title h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    color: #222222;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.main_title p {
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    line-height: 24px;
+    color: #777777;
+    margin-bottom: 0px;
+    max-width: 570px;
+    font-weight: 300;
+    margin: auto;
+}
+
+
+/* End Main Title Area css
+============================================================================================ */
+
+
+/*---------------------------------------------------- */
+
+
+/*----------------------------------------------------*/
+
+.header_area {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    -webkit-transition: background 0.4s, all 0.3s linear;
+    -o-transition: background 0.4s, all 0.3s linear;
+    transition: background 0.4s, all 0.3s linear;
+}
+
+.header_area .navbar .navbar-brand {
+    opacity: 0.9;
+    font-size: 10px;
+}
+
+.header_area .navbar {
+    background: transparent;
+    padding: 0px;
+    border: 0px;
+    border-radius: 0px;
+}
+
+.header_area .navbar .nav .nav-item {
+    margin-right: 45px;
+}
+
+.header_area .navbar .nav .nav-item a {
+    opacity: 0.9;
+}
+
+.header_area .navbar .nav .nav-item .nav-link {
+    font: 500 12px/80px "Roboto", sans-serif;
+    text-transform: uppercase;
+    color: #222222;
+    padding: 0px;
+    display: inline-block;
+}
+
+.header_area .navbar .nav .nav-item .nav-link:after {
+    display: none;
+}
+
+.header_area .navbar .nav .nav-item:last-child {
+    margin-right: 0px;
+}
+
+.header_area .navbar .search {
+    font-size: 12px;
+    line-height: 60px;
+    display: inline-block;
+    color: #222222;
+    margin-left: 80px;
+}
+
+.header_area .navbar .search i {
+    font-weight: 600;
+}
+
+.header_area.navbar_fixed .main_menu {
+    position: fixed;
+    width: 100%;
+    top: -70px;
+    left: 0;
+    right: 0;
+    background: rgba(182, 205, 224, 0.9);
+    -webkit-transform: translateY(70px);
+    -ms-transform: translateY(70px);
+    transform: translateY(70px);
+    -webkit-transition: background 500ms ease, -webkit-transform 500ms ease;
+    transition: background 500ms ease, -webkit-transform 500ms ease;
+    -o-transition: transform 500ms ease, background 500ms ease;
+    transition: transform 500ms ease, background 500ms ease;
+    transition: transform 500ms ease, background 500ms ease, -webkit-transform 500ms ease;
+    -webkit-transition: transform 500ms ease, background 500ms ease;
+    -webkit-box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.3);
+}
+
+.header_area.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
+    line-height: 70px;
+}
+
+
+/*---------------------------------------------------- */
+
+
+/*----------------------------------------------------*/
+
+
+/* Feature Area css
+============================================================================================ */
+
+.feature_area .main_title {
+    margin-bottom: 0px !important;
+}
+
+.feature_area .main_title h6 {
+    opacity: 0.7;
+    font-size: 10px;
+    text-transform: capitalize;
+}
+
+.feature_area .main_title h2 {
+    color: rgb(54, 148, 211);
+}
+
+.feature_area .feature_inner {
+    padding-top: 40px;
+}
+
+.feature_item {
+    display: block;
+    width: 100%;
+    border-radius: 4px;
+    padding: 20px 20px 20px 20px;
+    -webkit-transition: all 300ms linear 0s;
+    -o-transition: all 300ms linear 0s;
+    transition: all 300ms linear 0s;
+    border-bottom: 2px solid rgb(54, 148, 211);
+}
+
+.feature_item .logo {
+    padding-bottom: 15px;
+}
+
+.feature_item h4 {
+    color: #222222;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 25px;
+}
+
+.feature_item p {
+    margin-bottom: 0px;
+}
+
+.feature_item:hover {
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 10px 30px 0px rgba(98, 71, 234, 0.1);
+    box-shadow: 0px 10px 30px 0px rgba(98, 71, 234, 0.3);
+    border-color: rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(54, 148, 211);
+}
+
+
+/* End Feature Area css
+  ============================================================================================ */
+
+
+/* Home Banner Area css
+============================================================================================ */
+
+.home_banner_area {
+    z-index: 1;
+    background: #fffeff;
+}
+
+.home_banner_area .banner_inner {
+    overflow: hidden;
+    width: 100%;
+    padding: 225px 0px;
+}
+
+.b_banner {
+    min-height: 780px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    margin-bottom: 0px;
+}
+
+.b_banner .banner_inner {
+    background: #04091e;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    min-height: 780px;
+    z-index: 1;
+}
+
+.b_banner .banner_inner .overlay {
+    background: url(../img/poulet.jpg) no-repeat scroll center center;
+    opacity: .5;
+    height: 125%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: -1;
+}
+
+.b_banner .banner_inner .b_text {
+    max-width: 700px;
+    margin: auto;
+    color: #fff;
+    margin-top: 40px;
+}
+
+.b_banner .banner_inner .b_text h2 {
+    font-size: 300%;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    line-height: 66px;
+    margin-bottom: 15px;
+}
+
+.b_banner .banner_inner .b_text a {
+    background: none;
+    color: white;
+}
+
+
+/* End Home Banner Area css
+============================================================================================ */
+
+
+/*---------------------------------------------------- */
+
+
+/*----------------------------------------------------*/
+
+
+/* Clients Logo Area css
+============================================================================================ */
+
+.clients_logo_area {
+    background: #f7f8fa;
+}
+
+.clients_logo_area .main_title h2 {
+    color: #cea06c;
+}
+
+.clients_logo_area .main_title h6 {
+    font-size: 10px;
+    text-transform: capitalize;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    outline: black;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-image: none;
+}
+
+.carousel-control-next-icon:after {
+    content: '>';
+    font-size: 55px;
+    color: red;
+}
+
+.carousel-control-prev-icon:after {
+    content: '<';
+    font-size: 55px;
+    color: red;
+}
+
+.clients_logo_area .clients_slider .item {
+    text-align: center;
+}
+
+.client_slide_button {
+    padding-top: 40px;
+}
+
+.clients_logo_area .client_slide_button a {
+    border: none;
+    background: none;
+    color: rgb(119, 116, 116);
+}
+
+.clients_logo_area .client_slide_button .genric-btn {
+    line-height: 20px;
+}
+
+.clients_logo_area .clients_slider .item img {
+    width: auto;
+    text-align: center;
+    display: block;
+    margin: auto;
+    line-height: 70px;
+    text-align: center;
+    filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    opacity: .3;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.clients_logo_area .clients_slider .item:hover img {
+    filter: grayscale(0%);
+    -o-filter: grayscale(0%);
+    -ms-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    opacity: 1;
+}
+
+
+/* End Clients Logo Area css
+============================================================================================ */
+
+
+/*---------------------------------------------------- */
+
+
+/*----------------------------------------------------*/
+
+
+/*==============Elements Button Area css ================*/
+
+.primary {
+    background: #52c5fd;
+}
+
+.primary:before {
+    background: #2faae6;
+}
+
+.success {
+    background: #4cd3e3;
+}
+
+.success:before {
+    background: #2ebccd;
+}
+
+.info {
+    background: #38a4ff;
+}
+
+.info:before {
+    background: #298cdf;
+}
+
+.warning {
+    background: #f4e700;
+}
+
+.warning:before {
+    background: #e1d608;
+}
+
+.danger {
+    background: #f54940;
+}
+
+.danger:before {
+    background: #e13b33;
+}
+
+.primary-border {
+    background: transparent;
+    border: 1px solid #52c5fd;
+    color: #52c5fd;
+}
+
+.primary-border:before {
+    background: #52c5fd;
+}
+
+.success-border {
+    background: transparent;
+    border: 1px solid #4cd3e3;
+    color: #4cd3e3;
+}
+
+.success-border:before {
+    background: #4cd3e3;
+}
+
+.info-border {
+    background: transparent;
+    border: 1px solid #38a4ff;
+    color: #38a4ff;
+}
+
+.info-border:before {
+    background: #38a4ff;
+}
+
+.warning-border {
+    background: #fff;
+    border: 1px solid #f4e700;
+    color: #f4e700;
+}
+
+.warning-border:before {
+    background: #f4e700;
+}
+
+.danger-border {
+    background: transparent;
+    border: 1px solid #f54940;
+    color: #f54940;
+}
+
+.danger-border:before {
+    background: #f54940;
+}
+
+.link-border {
+    background: transparent;
+    border: 1px solid #6247ea;
+    color: #6247ea;
+}
+
+.link-border:before {
+    background: #6247ea;
+}
+
+.radius {
+    border-radius: 3px;
+}
+
+.circle {
+    border-radius: 20px;
+}
+
+.arrow span {
+    padding-left: 5px;
+}
+
+.e-large {
+    line-height: 50px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.large {
+    line-height: 45px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.medium {
+    line-height: 30px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.small {
+    line-height: 25px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.general {
+    line-height: 38px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+
+/*==============End Elements Button Area css ================*/
+
+
+/* =================================== */
+
+
+/*  Elements Page Styles
+/* =================================== */
+
+h2 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 14px;
+}
+
+.genric-btn {
+    display: inline-block;
+    outline: none;
+    line-height: 40px;
+    padding: 0 30px;
+    font-size: .8em;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.genric-btn:focus {
+    outline: none;
+}
+
+.genric-btn.e-large {
+    padding: 0 40px;
+    line-height: 50px;
+}
+
+.genric-btn.arrow {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.genric-btn.arrow span {
+    margin-left: 10px;
+}
+
+.genric-btn.default {
+    color: #222222;
+    background: #f9f9ff;
+    border: 1px solid transparent;
+}
+
+.genric-btn.default:hover {
+    border: 1px solid #f9f9ff;
+    background: #fff;
+}
+
+.genric-btn.default-border {
+    border: 1px solid #f9f9ff;
+    background: #fff;
+}
+
+.genric-btn.default-border:hover {
+    color: #222222;
+    background: #f9f9ff;
+    border: 1px solid transparent;
+}
+
+.genric-btn.primary {
+    color: #fff;
+    background: #f8b600;
+    border: 1px solid transparent;
+}
+
+.genric-btn.primary:hover {
+    color: #f8b600;
+    border: 1px solid #f8b600;
+    background: #fff;
+}
+
+.genric-btn.primary-border {
+    color: #f8b600;
+    border: 1px solid #f8b600;
+    background: #fff;
+}
+
+.genric-btn.primary-border:hover {
+    color: #fff;
+    background: #f8b600;
+    border: 1px solid transparent;
+}
+
+
+/*---------------------------------------------------- */
+
+
+/*----------------------------------------------------*/
+
+
+/* End Feature Area css
+============================================================================================ */
+
+.solution_area {
+    background: #f7c967;
+    text-align: center;
+}
+
+.solution_area .solution_inner {
+    color: black;
+}
+
+.solution_area .solution_inner h4 {
+    font-size: 36px;
+    margin-bottom: 16px;
+}
+
+.solution_area .solution_inner h6 {
+    opacity: 0.7;
+    font-size: 10px;
+    text-transform: capitalize;
+}
+
+.solution_area .solution_inner .table .table-row td {
+    border-top: none;
+}
+
+.solution_area .solution_inner .table .table-row td a {
+    color: black;
+    background: none;
+}
+
+.solution_area .solution_inner .table .table-row td a:hover {
+    background: white;
+    opacity: 0.8;
+    box-shadow: 3px 3px 0px 0px rgb(241, 51, 51, 0.7);
+}
+
+.solution_area .solution_inner .btn-iconed {
+    -webkit-transition: .15s ease-in-out;
+    transition: .15s ease-in-out;
+    padding-left: 1.3rem;
+    padding-right: 1.5rem;
+}
+
+.solution_area .solution_inner .btn-iconed .fa {
+    opacity: 0;
+    -webkit-transform-origin: left right;
+    transform-origin: left right;
+    -webkit-transform: translateX(-10px) scale(1.25);
+    transform: translateX(-10px) scale(1.25);
+    -webkit-transition: .15s ease-out;
+    transition: .15s ease-out;
+}
+
+.solution_area .solution_inner .btn-iconed .spn {
+    position: relative;
+    padding-right: 80px;
+    left: -9px;
+    -webkit-transform-origin: left right;
+    transform-origin: left right;
+    -webkit-transform: translateX(-9px);
+    transform: translateX(-9px);
+    -webkit-transition: .20s ease-in-out;
+    transition: .20s ease-in-out;
+}
+
+.solution_area .solution_inner .btn-iconed:hover .fa {
+    opacity: 1;
+    -webkit-transform: translateX(0px) scale(0.75);
+    transform: translateX(0px) scale(0.75);
+}
+
+.solution_area .solution_inner .btn-iconed:hover .spn {
+    left: 0px;
+}
+
+
+/* End Feature Area css
+============================================================================================ */
+
+
+/*---------------------------------------------------- */
+
+
+/*----------------------------------------------------*/
+
+
+/* Service Area css
+============================================================================================ */
+
+.service_area {
+    background: #dcc3df;
+    position: relative;
+    overflow: hidden;
+}
+
+.service_area:before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.service_area .main_title {
+    margin-bottom: 30px;
+}
+
+.service_area .main_title h2 {
+    font-size: 36px;
+    color: #212f64;
+    opacity: 0.7;
+}
+
+.service_area .main_title h6 {
+    font-size: 10px;
+    text-transform: capitalize;
+}
+
+.service_area .content-service {
+    background: white;
+    padding: 40px;
+}
+
+.service_area .content-service .main_title img {
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.service_area .content-service .main_title h4 {
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 70px;
+}
+
+.service_area .service-button {
+    color: black;
+    border: none;
+}
+
+.service_area .service-img {
+    background: white;
+}
+
+.service_area .service-img .img-fluid {
+    max-width: 107%;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-size: cover !important;
+}
+
+
+/* End Service Area css
+============================================================================================ */
+
+
+/*---------------------------------------------------- */
+
+
+/*----------------------------------------------------*/
+
+
+/*============== footer-area css ===============*/
+
+.footer-area {
+    background: #f1f1fc;
+}
+
+.footer-area .quality-logo {
+    padding-bottom: 20px;
+}
+
+.tp_widgets .list li {
+    margin-bottom: 12px;
+}
+
+.tp_widgets .list li a {
+    color: #777777;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+}
+
+.tp_widgets .list li:last-child {
+    margin-bottom: 0px;
+}
+
+.logo {
+    padding-bottom: 10px;
+}
+
+.footer_title {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    color: rgb(54, 148, 211);
+    margin-bottom: 28px;
+}
+
+.footer-bottom {
+    padding-top: 35px;
+    border-top: 1px solid rgb(190, 189, 189);
+}
+
+.footer-bottom .footer-text {
+    color: #474747;
+}
+
+.footer-bottom .footer-text a {
+    color: #474747;
+    padding-right: 40px;
+}
+
+.footer-bottom .footer-text a:hover {
+    color: #fff;
+    background: #474747;
+}
+
+.footer-bottom .footer-text p .footer-copyright {
+    text-align: right;
+}
+
+
+/*---------------------------------------------------- */
